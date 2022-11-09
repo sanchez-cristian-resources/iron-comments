@@ -12,18 +12,25 @@
 <body>
 
     <form id="form-container">
-        <div class="input-container">
+        <fieldset class="input-container">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name">
-        </div>
-        <div class="input-container">
+        </fieldset>
+        <fieldset class="input-container">
             <label for="email">Email:</label>
             <input type="email" id="email" name="email">
-        </div>
-        <div class="input-container">
+        </fieldset>
+        <fieldset class="input-container">
             <label for="comment">Comment:</label>
-            <textarea type="text" id="comment" value="" name="comment">
-        </div>
+            <textarea type="text" id="comment" value="" name="comment"></textarea>
+        </fieldset>
+        <fieldset>
+            <label for="checkbox-label" class="checkbox-label">Receive email updates?</label>
+            <input type="checkbox" id="checkbox-label" name="checkbox-label">
+        </fieldset>
+        <button type="submit">
+            Submit
+        </button>
     </form>
 
 </body>
